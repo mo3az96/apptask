@@ -50,7 +50,7 @@ const Edit = () => {
         //     console.log(err);
         // })
         axios({
-            url: baseurl + "/cashier/",
+            url: baseurl + "/cashier",
             method: 'post',
             // mode: 'no-cors',
             data: JSON.stringify({
@@ -69,7 +69,7 @@ const Edit = () => {
             },
             json: false,
             cache: false,
-            withCredentials: true,
+            // withCredentials: true,
             credentials: 'same-origin'
         }).then((response) => {
             console.log(response);
