@@ -61,9 +61,7 @@ const Edit = () => {
                 permissions: []
             }),
             headers: {
-                'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/x-www-form-urlencoded',
-                'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH',
             },
             proxy: {
                 target: "http://localhost:3000",

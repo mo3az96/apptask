@@ -21,7 +21,7 @@ const App = (props) => {
 
 
   useEffect(() => {
-    axios.get("http://5e0dcaf036b80000143db8a4.mockapi.io/links").then((response) => {
+    axios.get("https://5e0dcaf036b80000143db8a4.mockapi.io/links").then((response) => {
       let arr = []
       response.data.forEach(element => {
         arr.push(element)
