@@ -50,7 +50,7 @@ const App = (props) => {
     <div>
       <button onClick={handelLng} className="lang">{storedLang == "ar" ? "En" : "ع"}</button>
 
-      <HashRouter>
+      <HashRouter hashType="noslash">
         {/* <Route exact path={["/Log", "/Log/ar", "/Log/en"]} component={!user ? Log : DrawerCon} />
         <Route exact path={["/", "/ar", "/en"]} component={DrawerCon} /> */}
 
